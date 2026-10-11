@@ -1,0 +1,52 @@
+WEBSITE PROFIL
+==============
+
+Setiap bahasa pemrograman ada di file sendiri:
+
+  index.html        STRUKTUR dan ISI tulisan halaman (HTML)
+  css/style.css     TAMPILAN: warna, ukuran, tata letak (CSS)
+  js/script.js      GERAKAN dan data: animasi, proyek, keahlian (JavaScript)
+  js/ikon.js        daftar ikon teknologi yang melayang (JavaScript)
+  js/matter.min.js  library fisika untuk ikon (jangan diubah)
+  img/              taruh foto Anda di sini, namanya foto.jpg
+
+CARA MELIHAT
+  Klik dua kali index.html. Website langsung terbuka di browser.
+  Jangan pindahkan file keluar dari foldernya, karena index.html
+  memanggil file css dan js di folder ini.
+  (Font dari Google Fonts butuh internet. Tanpa internet font diganti otomatis.)
+
+CARA MENGGANTI ISI (buka file dengan VS Code atau Notepad, lalu cari kata kuncinya)
+
+  Di js/script.js
+    - Nama, tanda tangan, email ........ cari  var NAME=
+    - Paragraf Tentang ................. cari  var AB=     (kata berbintang, mis. *web*, jadi berwarna)
+    - Proyek (kartu + halaman detail) .. cari  var PJ=
+    - Keahlian 01 sampai 04 ............ cari  var CP=
+
+  Di index.html
+    - Angka statistik .................. cari  data-to=    (2, 10, 3)
+    - Tulisan kartu kemampuan .......... cari  Frontend
+    - Tautan GitHub, LinkedIn, Instagram, WhatsApp
+                                         cari  github.com/username  dan  wa.me/628123456789
+                                         (nomor WhatsApp tanpa 0 di depan, diawali 62)
+
+  Di css/style.css
+    - Warna aksen ...................... cari  --accent:#3b82f6
+    - Warna latar ...................... cari  --bg:#0b1018
+      Contoh warna lain: oranye #ff4a10, ungu #8b5cf6, hijau #22e07a, emas #e0b04a.
+
+  Di js/ikon.js
+    - Daftar ikon: hapus satu baris [ ... ] untuk membuang ikon.
+
+  Foto
+    - Simpan foto sebagai img/foto.jpg. Otomatis tampil di bagian atas.
+
+CARA MEMPUBLIKASIKAN (gratis)
+  Netlify : buka app.netlify.com/drop, lalu seret seluruh folder ini ke halamannya.
+  Vercel  : unggah folder ini sebagai proyek baru (tanpa framework).
+  GitHub Pages : unggah isi folder ke repositori, lalu aktifkan Pages.
+
+CATATAN
+  Formulir kontak membuka aplikasi email dengan isi yang sudah terisi.
+  Ia tidak mengirim pesan langsung. Untuk itu perlu layanan penerima formulir.

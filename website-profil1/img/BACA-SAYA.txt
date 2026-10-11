@@ -1,0 +1,3 @@
+Taruh foto Anda di folder ini dengan nama: foto.jpg
+Foto akan otomatis tampil di bagian atas website.
+Saran: foto setengah badan, rasio 3:4 (potret), latar polos lebih bagus.
